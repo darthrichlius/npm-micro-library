@@ -1,0 +1,29 @@
+{
+  "name": "random-starwars-and-fantasy-names",
+  "version": "0.1.0",
+  "description": "Generate random character names from the Star Wars universe and fantasy genres",
+  "main": "src/index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/darthrichlius/npm-micro-library.git"
+  },
+  "keywords": [
+    "randowm",
+    "star",
+    "wars",
+    "fantasy",
+    "genres"
+  ],
+  "author": "darthrichlius <hello@rdieud.com> (https://github.com/darthrichlius)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/darthrichlius/npm-micro-library/issues"
+  },
+  "homepage": "https://github.com/darthrichlius/npm-micro-library#readme"
+}
