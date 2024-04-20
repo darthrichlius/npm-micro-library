@@ -5,43 +5,55 @@ Kent demonstrates how to create and deploy a "**micro-library**" from start to f
 
 This tutorial uses a micro-library as a foundation to demonstrate the principles of **creating and publishing a properly designed library to NPM**. By starting with a simple example, we can better understand the underlying concepts while still applying them to larger libraries or frameworks.
 
-**Feel free to follow the steps through the git commit log.**
+> **Make sure to follow the steps through the git commit log.**
 
 ## PROJECT SCOPE
 
-- Push the library to NPM
-- Add unit test suite (Karma, Mocha, and Chai)
-- Set up continuous integration
-- Use modern JavaScript ES6 "or ES2015" (Babel)
+- Pushing the library to NPM
+- Adding unit test suite (Karma, Mocha, and Chai)
+- Seting up continuous integration
+- Using modern JavaScript ES6 "or ES2015" (Babel)
 - Using a bundler (Webpack)
 - Isomorphic distribution for Browser and NodeJS compatibility
 
-## WHAT IS A MICRO-LIBRARY?
+## PREREQUESITES
+
+- Basic knowledge of `Javascript`
+- Basic understanding of **Javascript libraries, transcompilers and bundlers** (Mocha, Chai, Babel, Webpack, ...)
+- Basic understanding of `NodeJS`
+- Basic understanding of `npm`
+- Active Github & NPM account
+- Active NPM REGISTRY account ([Check how to quickly set up you npm registry account](./docs/setting_up_npm_registry_account.md))
+- Valid `npm` configuration (author, license, ...) ([Check how to quickly set up you npm configuration on your local machine](./docs/setting_up_npm_configuration.md))
+
+## MICRO-LIBRARY 101
+
+### What is a micro-library?
 
 A micro-library is a small, focused library that performs a specific task or set of related tasks. It is typically designed to be lightweight, easy to use, and have minimal dependencies. Micro-libraries are often used in modern software development to promote modularity, reusability, and maintainability.
 
-## MICRO-LIBRARY PROS & CONS
+### Micro-library pros & cons
 
-### Benefits
+#### Benefits
 
-#### Small in size, easy to reason about
+##### Small in size, easy to reason about
 
 - **Modularity**: Micro-libraries are designed to be modular, which means they perform a **single task or set of related tasks**. This makes it easier to understand, test, and maintain the library.
 - **Easy to learn**: Micro-libraries are usually smaller and simpler than larger libraries or frameworks, which can make them easier to learn and use.
 
-#### Small in size, easy to test
+##### Small in size, easy to test
 
 - **Easy to test**: Micro-libraries have a smaller codebase and fewer dependencies, which makes them easier to test. This can lead to better code quality, fewer bugs, and more reliable software.
 
-#### Reduced Overhead
+##### Reduced Overhead
 
 - **Reduced dependencies**: Micro-libraries typically have minimal dependencies, which can reduce the risk of conflicts and compatibility issues with other libraries or frameworks.
 
-#### Portable
+##### Portability
 
 - **Reusability**: Micro-libraries can be easily reused across different projects, which can save time and effort in development.
 
-### Drawbacks
+#### Drawbacks
 
 - **Increased complexity**: Using multiple micro-libraries can increase the complexity of a project, as developers need to manage and integrate multiple libraries.
 - **Fragmentation**: The use of multiple micro-libraries can lead to fragmentation, where different libraries are used for similar tasks, leading to inconsistency and duplication of effort.
