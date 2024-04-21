@@ -1,6 +1,8 @@
 # How to Quickly Test Your Code in Node REPL Mode
 
-## Step 1: Start Node in REPL Mode
+## PROCEDURE
+
+### Step 1: Start Node in REPL Mode
 
 The REPL mode is useful for printing the return of a function without too much boilerplate.
 
@@ -10,7 +12,7 @@ The REPL mode is useful for printing the return of a function without too much b
 > node
 ```
 
-## Step2: Test your implementation
+### Step2: Test your implementation
 
 **Import the module**
 
@@ -40,3 +42,8 @@ lib.random();
 ```sh
 .exit
 ```
+
+## ADDITIONNAL INFORMATION
+
+- If you have any questions, don't hesitate to contact me following my social links or through my email at [hello@rdieud.com](email:hello@rdieud.com)
+- If you find any typos or encounter any issues with this tutorial, please feel free to [contact me](email:hello@rdieud.com) or [create an issue on GitHub](https://github.com/darthrichlius/npm-micro-library/issues) so I could fix it.
