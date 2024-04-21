@@ -1,5 +1,5 @@
 {
-  "name": "random-starwars-and-fantasy-names",
+  "name": "random-fantasy-names",
   "version": "0.1.0",
   "description": "Generate random character names from the Star Wars universe and fantasy genres",
   "main": "src/index.js",
