@@ -40,7 +40,7 @@ now check your information are properly saved and are correct. If not, feel free
 
 ### Next
 
-Once your npm is properly configured, you should now add
+Once your npm is properly configured, you should now [add your account to the NPM registry](./setting_up_npm_registry_account.md)
 
 ## ADDITIONNAL INFORMATION
 
